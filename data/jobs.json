@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-11-12T01:30:34.119900+00:00",
-  "jobs": [],
+  "updated_at": "2026-11-12T01:31:14.673215+00:00",
+  "jobs": [
+    {
+      "id": "6a656cdfdc59399c4236",
+      "source": "Ashby",
+      "title": "Mobile Product Designer",
+      "company": "Linear",
+      "location": "North America",
+      "arrangement": "remote",
+      "description": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 50,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nQuality is our competitive advantage. Every member of our fully remote team is a maker at heart, caring deeply about the quality and feel of our work. While the industry optimizes for speed and metrics alone, we believe that craft and quality have lasting value. Quality creates gravity — it pulls people toward our team and product rather than requiring us to push. This philosophy drives everything we do, from product decisions to hiring choices.\n\nFor this role, we expect robust design skills, sharp product thinking, and the ability to engage in technical discussions. We work in small, autonomous project teams, where engineers are paired tightly with designers to explore ideas, build prototypes, deploy internal builds, and ultimately ship to customers. You will be a key element of projects from beginning to end.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in North America. You can work from anywhere within this region. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you'll do\n\n - Own the experience of our iOS and Android mobile apps, including guiding the adaptation of desktop features to mobile\n\n - Pair closely with mobile engineers and product leads to initiate and complete mobile-specific projects, no hand-offs\n\n - Take opportunities to redesign or refine key screens and flows, as well as smaller quality issues and “paper cuts” as you use Linear\n\n - Create mockups, prototypes, and high-fidelity visuals to communicate ideas and describe their execution\n\n - Guide and inspire fellow designers through collaborative critique of work-in-progress across both mobile and desktop platforms\n\n - Use and improve our lightweight design system components\n\n - Help with hi",
+      "summary": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\n…",
+      "url": "https://jobs.ashbyhq.com/linear/eac7f181-d658-4943-9430-51bae2bcd110/application",
+      "posted_at": "2026-08-03T19:57:33.020000+00:00",
+      "min_years": 5,
+      "salary": "$220,000 - $268,250",
+      "salary_max": null,
+      "fit": 60,
+      "applicants": null
+    },
+    {
+      "id": "1504d42a7a576eb8e487",
+      "source": "Greenhouse",
+      "title": "Product Designer, Terminal",
+      "company": "Stripe",
+      "location": "US Remote",
+      "arrangement": "remote",
+      "description": "Who we are \n\n About Stripe \n\n Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\n\n About the team \n\n The Product Design team is made up of several groups that define, create, and deliver all user-facing aspects of Stripe’s brand and product. Product Designers are strategic partners to Engineering and Product Management within their product area. In close collaboration with product teams, they shape user experiences, then translate them into high-quality designs that can be tested, shipped, and refined. Designers are responsible for building elegant, functional products that users love—and want to tell others about.\n\n The Terminal design team crafts product experiences that empower users to configure and manage in person payments. This team transforms the intricate world of payments into intuitive solutions, letting users focus on growing their businesses. The team spans hardware and software, focusing on many types of users: end users who pay at the point of sale, cashiers and operations managers who set up and run the devices, and merchants who manage a fleet of devices and need to monitor performance.\n\n What you’ll do \n\n As a product designer, you’ll work closely with the product manager and engineering team to envision payments features in the Stripe Dashboard and our end-user-facing surfaces and partner with go-to-market teams to bring them to users. That includes new feature development, product quality improvements to our most frequently used workflows, and setting vision for our products to meet new user expectations in an increasingly data and AI-driven world.\n\n Responsibilities \n\n \n Understand user workflows and pain points, and produce, test, and iterate on high-quality designs to solve user needs\n\n Partner closely with product, engineering, marketing, and strategy partners to define a north star and product experience for new features\n\n Prototype user experiences for user research testing and internal communication\n\n Collaborate with teams across Stripe to craft a seamless dashboard user experience\n\n Conduct ",
+      "summary": "Who we are \n\n About Stripe \n\n Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use…",
+      "url": "https://stripe.com/jobs/search?gh_jid=8282390",
+      "posted_at": null,
+      "min_years": 4,
+      "salary": null,
+      "salary_max": null,
+      "fit": 95,
+      "applicants": null
+    }
+  ],
   "sources": [
     "Remotive",
-    "Arbeitnow"
+    "Arbeitnow",
+    "greenhouse:stripe",
+    "greenhouse:plaid",
+    "greenhouse:figma",
+    "ashby:ramp",
+    "ashby:linear"
   ],
-  "errors": []
+  "errors": [
+    "greenhouse:plaid: HTTPError: HTTP Error 404: Not Found"
+  ]
 }
