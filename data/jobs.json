@@ -1,6 +1,23 @@
 {
-  "updated_at": "2026-11-12T21:58:50.434291+00:00",
+  "updated_at": "2026-11-12T22:58:54.797978+00:00",
   "jobs": [
+    {
+      "id": "c87fbcb6cad1eb40731f",
+      "source": "Ashby",
+      "title": "Senior Design Systems Engineer",
+      "company": "Ramp",
+      "location": "Remote (US) / San Francisco, CA / New York, NY (HQ)",
+      "arrangement": "remote",
+      "description": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\n\n\n\nABOUT THE ROLE\n\nWe’re hiring a Design Systems Engineer to be one of the few engineers building the components that every Ramp product team uses — the person who makes our design system real in code. You’ll work in close partnership with our design systems lead and designers: they decide what the rules are, and you decide how to enforce them. Sometimes that’s a component that won’t allow a bad pattern. Sometimes it’s a codebase move that makes the right path the easy one. Sometimes it’s automation that catches drift before it spreads.\n\nWith AI agents now writing much of the UI, this role is also at the frontier of a changing craft. You’ll help decide what the system has to guarantee when humans and agents are both building on top of it — because agents don’t settle for the happy path, and the system needs to hold up either way.\n\nHaving worked as a designer (or deeply alongside one), you understand the design-eng collaboration challenges firsthand. You’re driven to improve it because you’ve lived with the pain points. You excel in UI and accessible design, prefer working directly in-browser, and get excited about emerging CSS properties.\n\nThis is an IC role on a small team, which means you’ll have real say in architecture, API design, and the tradeoffs that shape how Ramp builds — foundational, detail-obsessed frontend work with an outsized impact on every screen we ship.\n\n\nWhat You’ll Do\n\n - Build and evolve the components and APIs that every product team at Ramp depends on\n\n - Make the enforcement call: when to encode a rule in ",
+      "summary": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spe…",
+      "url": "https://jobs.ashbyhq.com/ramp/b7fd55f4-6c5a-42f5-be04-aa09a4d5b7a9/application",
+      "posted_at": "2026-11-12T20:01:54.072000+00:00",
+      "min_years": null,
+      "salary": "$188,000 - $259,250",
+      "salary_max": null,
+      "fit": 85,
+      "applicants": null
+    },
     {
       "id": "6a656cdfdc59399c4236",
       "source": "Ashby",
