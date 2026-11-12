@@ -1,0 +1,14 @@
+{
+  "remotive": true,
+  "arbeitnow": true,
+  "greenhouse": [
+    {"token": "stripe", "company": "Stripe"},
+    {"token": "plaid", "company": "Plaid"},
+    {"token": "figma", "company": "Figma"}
+  ],
+  "lever": [],
+  "ashby": [
+    {"token": "ramp", "company": "Ramp"},
+    {"token": "linear", "company": "Linear"}
+  ]
+}
