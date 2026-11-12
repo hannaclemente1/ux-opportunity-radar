@@ -1,3 +1,35 @@
+#!/usr/bin/env python3
+"""Hourly public-source UX job feed. Standard library only; no API keys."""
+import datetime as dt
+import hashlib
+import html
+import json
+import re
+import urllib.request
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+OUT = ROOT / "data/jobs.json"
+NOW = dt.datetime.now(dt.timezone.utc)
+HEADERS = {"User-Agent": "UXOpportunityRadar/1.0 (public jobs aggregator)", "Accept": "application/json"}
+ROLE = re.compile(r"\b(?:ux|ui/ux|ui\s*[/&]\s*ux|user experience|product design|product designer|interaction design|experience design|digital product design)\b", re.I)
+DESIGNER = re.compile(r"\b(design(?:er)?|ux|ui)\b", re.I)
+EXCLUDE = re.compile(r"\b(manager|director|principal|staff|vp|vice president|head of|internship|intern)\b", re.I)
+US_REMOTE = re.compile(r"\b(remote|work from home|distributed|anywhere)\b", re.I)
+US = re.compile(r"\b(united states|u\.s\.|usa|us-only|us based|american|north america)\b", re.I)
+NOT_US = re.compile(r"\b(europe only|emea|uk only|canada only|latin america only|latam only|apac only)\b", re.I)
+SD = re.compile(r"\bsan diego\b", re.I)
+EXPERIENCE = re.compile(r"\b(?:minimum of|at least|minimum|requires?|have|with)?\s*(\d{1,2})\s*\+?\s*(?:to|-|–)\s*(\d{1,2})\s*years?\s*(?:of\s+)?(?:relevant\s+)?(?:experience|in\s+(?:ux|design|product))|\b(?:minimum of|at least|minimum|requires?|have|with)?\s*(\d{1,2})\s*\+?\s*years?\s*(?:of\s+)?(?:relevant\s+)?(?:experience|in\s+(?:ux|design|product))", re.I)
+# Only extract from short requirement-style clauses, not "our company has 10 years of experience".
+REQUIREMENT_CUE = re.compile(r"\b(?:you have|you bring|qualifications|requirements|experience required|years of experience|at least|minimum|must have|ideal candidate|proven)\b", re.I)
+
+def get_json(url):
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=25) as r:
+        return json.load(r)
+
+def plain(s):
+    s = re.sub(r"<[^>]*>", " ", str(s or ""))
     return re.sub(r"\s+", " ", html.unescape(s)).strip()
 
 def date_iso(value):
